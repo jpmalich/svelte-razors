@@ -4,7 +4,7 @@
   import globalStore from "../../stores/globalStore";
 
   let closeSidebar = globalStore.toggleItem;
-  export let segment;
+
   let screenWidth;
   $: if (screenWidth > 992){
     closeSidebar('sidebar',false)
